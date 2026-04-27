@@ -1,9 +1,25 @@
 
-run
-python -m venv venv
-venv\Scripts\activate
+##  Quick Start (Run the Project)
 
-1. pip install -r requirements.txt
+Follow these steps to set up and run the PAN Card Detection system:
 
-2. python train.py
-3. python detect.py
+### 1️  Clone the Repository
+```bash
+git clone https://github.com/your-username/pan-card-detection-yolov8.git
+cd pan-card-detection-yolov8
+
+
+### 2️  Set Up Environment
+
+  python -m venv venv
+
+### 3️ Install Requirements
+
+  pip install -r requirements.txt
+
+### 4 Train the Model
+
+  python train.py
+
+### 5 Run Detection
+  python detect.py
