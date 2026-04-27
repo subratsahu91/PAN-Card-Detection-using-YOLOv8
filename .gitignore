@@ -1,0 +1,6 @@
+venv/
+runs/
+*.cache
+*.pt
+__pycache__/
+.env
